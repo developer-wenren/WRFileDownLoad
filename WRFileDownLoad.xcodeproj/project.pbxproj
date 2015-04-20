@@ -14,6 +14,7 @@
 		51DFF4541AE3F011004647D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DFF4531AE3F011004647D1 /* Images.xcassets */; };
 		51DFF4571AE3F011004647D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DFF4551AE3F011004647D1 /* LaunchScreen.xib */; };
 		51DFF4631AE3F011004647D1 /* WRFileDownLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF4621AE3F011004647D1 /* WRFileDownLoadTests.m */; };
+		51DFF46E1AE40529004647D1 /* WRFileDownLoadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DFF46D1AE40529004647D1 /* WRFileDownLoadTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		51DFF45C1AE3F011004647D1 /* WRFileDownLoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WRFileDownLoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFF4611AE3F011004647D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51DFF4621AE3F011004647D1 /* WRFileDownLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRFileDownLoadTests.m; sourceTree = "<group>"; };
+		51DFF46C1AE40529004647D1 /* WRFileDownLoadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRFileDownLoadTool.h; sourceTree = "<group>"; };
+		51DFF46D1AE40529004647D1 /* WRFileDownLoadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRFileDownLoadTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				51DFF44B1AE3F011004647D1 /* AppDelegate.m */,
 				51DFF44D1AE3F011004647D1 /* ViewController.h */,
 				51DFF44E1AE3F011004647D1 /* ViewController.m */,
+				51DFF46C1AE40529004647D1 /* WRFileDownLoadTool.h */,
+				51DFF46D1AE40529004647D1 /* WRFileDownLoadTool.m */,
 				51DFF4501AE3F011004647D1 /* Main.storyboard */,
 				51DFF4531AE3F011004647D1 /* Images.xcassets */,
 				51DFF4551AE3F011004647D1 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				51DFF44F1AE3F011004647D1 /* ViewController.m in Sources */,
 				51DFF44C1AE3F011004647D1 /* AppDelegate.m in Sources */,
+				51DFF46E1AE40529004647D1 /* WRFileDownLoadTool.m in Sources */,
 				51DFF4491AE3F011004647D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WRFileDownLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WRFileDownLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +422,7 @@
 				51DFF4681AE3F011004647D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51DFF4691AE3F011004647D1 /* Build configuration list for PBXNativeTarget "WRFileDownLoadTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				51DFF46B1AE3F011004647D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
